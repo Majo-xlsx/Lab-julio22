@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito GeekXpress</title>
+</head>
+<body>
+  <h2>Tienda GeekXpress</h2>
+
+  <div>
+    <p>Producto: Figura Dorohedoro - $170,000</p>
+    <button onclick="agregarProducto('Figura Dorohedoro', 170000)">Agregar al carrito</button>
+  </div>
+
+  <div>
+    <p>Producto: Manga Bleach - $100,000</p>
+    <button onclick="agregarProducto('Manga Bleach', 100000)">Agregar al carrito</button>
+  </div>
+
+  <div>
+    <p>Producto: Deck Commander - $300,000</p>
+    <button onclick="agregarProducto('Deck Commander', 300000)">Agregar al carrito</button>
+  </div>
+
+  <hr>
+  <p>Total de ítems: <span id="total-items">0</span></p>
+  <p>Total a pagar: $<span id="total-precio">0</span></p>
+
+  <button onclick="vaciarCarrito()">Vaciar carrito</button>
+
+  <script src="compras.js"></script>
+</body>
+</html>
